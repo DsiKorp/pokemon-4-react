@@ -5,7 +5,7 @@ import { Toaster } from 'sonner';
 //import { HooksApp } from './HooksApp';
 //import { TrafficLightWithEffect } from './02-userEffect/TrafficLightWithEffect';
 //import { TrafficLightWithHook } from './02-userEffect/TrafficLightWithHook';
-//import { PokemonPage } from './03-examples/PokemonPage';
+import { PokemonPage } from './03-examples/PokemonPage';
 //import { FocusScreen } from './04-useRef/FocusScreen';
 //import { TasksApp } from './05-useReducer/TaskApp';
 //import { MemoHook } from './06-memos/MemoHook';
@@ -13,7 +13,7 @@ import { Toaster } from 'sonner';
 //import { InstagromApp } from './07-useOptimistic/InstagromApp';
 //import { ClientInformation } from './08-use-suspense/ClientInformation';
 //import { getUserAction } from './08-use-suspense/api/get-user.action';
-import { ProfessionalApp } from './09-useContext/ProfessionalApp';
+// import { ProfessionalApp } from './09-useContext/ProfessionalApp';
 import './index.css'
   ;
 
@@ -26,7 +26,7 @@ createRoot(document.getElementById('root')!).render(
     {/* <TrafficLight /> */}
     {/* <TrafficLightWithEffect /> */}
     {/* <TrafficLightWithHook /> */}
-    {/* <PokemonPage /> */}
+    <PokemonPage />
     {/* <FocusScreen /> */}
     {/* <TasksApp /> */}
     {/* <MemoHook /> */}
@@ -39,6 +39,6 @@ createRoot(document.getElementById('root')!).render(
     }>
       <ClientInformation getUser={getUserAction(100)} />
     </Suspense> */}
-    <ProfessionalApp />
+    {/* <ProfessionalApp /> */}
   </StrictMode>,
 );
